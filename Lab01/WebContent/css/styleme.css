@@ -1,0 +1,36 @@
+@charset "ISO-8859-1";
+body {
+  background-color: #804040;
+}
+h1{
+	color:aqua;
+}
+h2{
+	color: #00ffff
+}
+strong{
+	color:#00ff40;	
+}
+a{
+	color:#ff8000;
+}
+p{
+	color:white;
+	font-family:verdana;
+	font-size:12px;
+}
+ul{
+	color:white;
+	font-size: 12px;
+	font-weight: normal;
+	font-family: Trebuchet MS;
+}
+ol{
+	color:white;
+	font-size: 12px;
+	font-weight: normal;
+	font-family: Trebuchet MS;
+}
+td{
+	color:white;
+}
