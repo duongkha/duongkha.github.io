@@ -4,17 +4,7 @@ body{
 	color:#404040;
 	font-size: 11pt;
 	font-family: Georgia, Garamond;
-}
-.bg {
-  /* The image used */
-  background-image: url("images/silverware.jpg");
-
-  /* Full height */
-  height: 100%;
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-size: cover;
+ 	background-image: url("images/silverware.jpg");
 }
 a{
 	color:#A4A400;
