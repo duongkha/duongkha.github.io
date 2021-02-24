@@ -31,6 +31,6 @@ h2{
 pre {
   font-family: monospace;
 }
-ul {
+ul.icon {
   list-style-image: url('../images/pie_bullet.png');
 }
