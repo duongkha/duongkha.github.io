@@ -4,7 +4,7 @@ body{
 	color:#404040;
 	font-size: 11pt;
 	font-family: Georgia, Garamond;
- 	background-image: url("/images/silverware.jpg");
+ 	background-image: url('../images/silverware.jpg');
 }
 a{
 	color:#A4A400;
@@ -32,5 +32,5 @@ pre {
   font-family: monospace;
 }
 ul {
-  list-style-image: url('/images/pie_bullet.png');
+  list-style-image: url('../images/pie_bullet.png');
 }
