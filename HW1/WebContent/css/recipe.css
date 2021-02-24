@@ -29,6 +29,7 @@ h2{
 }
 pre {
   font-family: monospace;
+  text-align-last: right;
 }
 ul.icon {
   list-style-image: url('../images/pie_bullet.png');
