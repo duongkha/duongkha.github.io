@@ -25,8 +25,8 @@ h2{
 .comment{
 	background-color: #FFFFA8;
 	font-style: italic;
-	text-indent: 20px;
-	
+	display:inline-block;
+	margin-left:1em;
 }
 pre {
   font-family: monospace;
