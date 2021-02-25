@@ -5,6 +5,7 @@ body{
 	font-family: Verdana, Tahoma;
 	margin: 0px;
 	padding: 0px;
+	position: relative;
 }
 h1{
 	text-align: center;
@@ -16,33 +17,72 @@ h1{
 .banner{
 	background-image: url("../images/bannerbg.png");
 	width:100%;
+	align-content: center;
 }
 .content{
+	display: block;
 	width:800px;
+	height:900px;
 	border: 4px solid gray;
-	align-content: center;
-	
-}
-.split{
- 	height: 100%;
-	width: 50%;
-	position: fixed;
-	z-index: 1;
-	top: 0;
-	overflow-x: hidden;
-	padding-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	box-sizing : content-box;
+	border-radius :20px; 
+	position: relative;
 }
 .right{
-	right: 0;
-  	background-color: red;
+	width:250px;
+  	float:right;
+  	background-color: #A2B964;
+  	font-size: 8pt;
+  	font: Arial;
 }
 .left{
 	width:550px;
+	float:left;
 }
 .rottenbig{
 	background-image: url("../images/rbg.png");
+	width:100%;
 }
 .rotten{
 	font-size: 48pt;
 	color: red;
+	text-align: left;
+	justify-content: center;
+}
+.box{
+	box-sizing : content-box;
+	border:2px solid gray;
+	border-radius :10px; 
+	font-size: 8pt;
+	font-weight: bold;
+	background-color: #E8DC9B;
+	margin:10px;
+	padding:4px;
+}
+.reviewer{
+	margin:10px;
+	text-align: left;
+}
+.reviewcolumn{
+	width:50%;
+	
+}
+.floatright{
+	float:right;
+}
+.floatleft{
+	float:left;
+}
+.paging{
+	width:100%;
+	background-color: #A2B964;
+	text-align: center;
+	position: absolute;
+    bottom: 0;
+}
+.validator{
+	position: absolute;
+    right: 0;
 }
