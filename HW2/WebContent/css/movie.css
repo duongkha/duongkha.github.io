@@ -60,6 +60,7 @@ h1{
 .rotten{
 	font-size: 48pt;
 	color: red;
+	position:absolute;
 }
 .box{
 	box-sizing : border-box;
