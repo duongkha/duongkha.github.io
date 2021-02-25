@@ -6,6 +6,60 @@
 <title>Insert title here</title>
 </head>
 <body>
-
+	<header>
+		<img src="images/header.png"/>
+	</header>
+	<form action ="http://mumstudents.org/params.php" method ="GET" novalidate autocomplete="on">
+		<div class="signup">
+			<h1 class="caption">New User Signup:</h1>
+			<table>
+				<tr>
+					 <td><label>Name:</label></td>
+					 <td><input class="name" name="name" maxlength="16"></input></td>
+				</tr>
+				<tr>
+					<td><label>Gender:</label></td>
+					<td>
+						<div>
+							<input type="radio" name ="gender" value ="M"/>Male
+							<input type="radio" name ="gender" value ="F" checked/>Female
+						</div>
+					</td>
+				</tr>
+				<tr>
+					 <td><label>Age:</label></td>
+					 <td><input class="age" name="age" maxlength="2"></input></td>
+				</tr>
+				<tr>
+					 <td><label>Personality Type:</label></td>
+					 <td><input class="personality" name="personaltype" maxlength="4"></input><span class="unknowntype">(Don't know your type?)</span></td>
+				</tr>
+				<tr>
+					 <td><label>Favorite OS:</label></td>
+					 <td>
+					 	<select name="OS" id="OS">
+							<option value="Windows" selected="selected">Windows</option>
+							<option value="MacOSX">Mac OS X</option>
+							<option value="Linux">Linux</option>
+						</select>
+					 </td>
+				</tr>
+				<tr>
+					 <td><label>Seeking Age:</label></td>
+					 <td><input class="age" type="number" name="min" alt="min" placeholder="min" maxlength="2"></input><span>to:</span><input class="age type="number" name="max" alt="max" placeholder="max" maxlength="2"></input></td>
+				</tr>
+			</table>
+			<input type="submit" class="submitbtn" value="Sign Up">
+		</div>
+	</form>
+	<footer>
+	<p>This page is for single nerds to meet and date each other! Type in your personal information and wait for nerdly luv to begin. Thank you for using our site. </p>
+	<p>Results and page (C) Copyright NerdLuv Inc.</p>
+	<a href="/">Back to front page</a>
+	</footer>
+	<div class="validator">
+				<a href="https://validator.w3.org/check/referer"><img src="images/w3c-html.png" alt="Valid HTML5" /></a> <br />
+				<a href="https://jigsaw.w3.org/css-validator/check/referer"><img src="images/w3c-css.png" alt="Valid CSS" /></a>
+	</div>
 </body>
 </html>
