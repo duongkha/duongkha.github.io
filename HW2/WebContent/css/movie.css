@@ -22,13 +22,14 @@ h1{
 .content{
 	display: block;
 	width:800px;
-	height:900px;
+	height:1080px;
 	border: 4px solid gray;
 	margin-left: auto;
 	margin-right: auto;
 	box-sizing : content-box;
 	border-radius :20px; 
 	position: relative;
+	overflow: hidden;
 }
 .right{
 	width:250px;
@@ -49,21 +50,37 @@ h1{
 	font-size: 48pt;
 	color: red;
 	text-align: left;
-	justify-content: center;
+	margin-bottom: auto;
+	margin-top: auto;
 }
 .box{
-	box-sizing : content-box;
+	box-sizing : border-box;
 	border:2px solid gray;
 	border-radius :10px; 
 	font-size: 8pt;
 	font-weight: bold;
 	background-color: #E8DC9B;
-	margin:10px;
-	padding:4px;
+	margin:8px;
+	padding:8px;
+	
+}
+.reviewicon{
+ 	float: left; 
+	margin-right:5px;
+	position: relative;
+}
+.review{
+	text-align: justify;
+}
+.reviewericon{
+	float: left; 
+	margin-right:5px;
 }
 .reviewer{
-	margin:10px;
+	margin:8px;
 	text-align: left;
+	font-style: italic;
+	margin-bottom: 20pt;
 }
 .reviewcolumn{
 	width:50%;
@@ -75,6 +92,18 @@ h1{
 .floatleft{
 	float:left;
 }
+.overview{
+	margin-left:10pt;
+	margin-right:10pt;
+}
+dt{
+	font-weight: bold;
+	margin-top:10pt;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
 .paging{
 	width:100%;
 	background-color: #A2B964;
@@ -85,4 +114,5 @@ h1{
 .validator{
 	position: absolute;
     right: 0;
+    opacity: 0.5;
 }
