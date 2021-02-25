@@ -80,6 +80,7 @@ h1{
 	background-color: #E8DC9B;
 	min-height: 50px;
     min-width: 260px;
+    padding: 5px;
 }
 .reviewicon{
  	float: left; 
@@ -94,6 +95,7 @@ h1{
 	margin-right:5px;
 }
 .reviewer{
+	display: inline-block;
 	text-align: left;
 	font-style: italic;
 	margin-bottom: 20pt;
