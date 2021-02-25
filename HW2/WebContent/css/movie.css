@@ -62,6 +62,12 @@ h1{
 	color: red;
 	position:absolute;
 }
+.columns{
+	column-count: 2;
+	column-gap: 2%;
+	column-width: 47%;
+	margin:2%;
+}
 .box{
 	box-sizing : border-box;
 	border:2px solid gray;
@@ -92,8 +98,7 @@ h1{
 	margin-bottom: 20pt;
 }
 .reviewcolumn{
-	width:50%;
-	
+	width:47%;
 }
 .floatright{
 	float:right;
