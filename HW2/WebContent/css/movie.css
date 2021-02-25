@@ -48,10 +48,14 @@ h1{
 	float:left;
 }
 .rottenbig{
+	box-sizing : border-box;
 	background-image: url("../images/rbg.png");
 	background-repeat: repeat-x;
 	width:100%;
-	vertical-align: middle;
+	text-align:left;
+}
+.rottenimage{
+	height:83px;
 }
 .rotten{
 	font-size: 48pt;
