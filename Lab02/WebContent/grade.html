@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Retrieve Grade</title>
+</head>
+<body>
+<h1>Retrieve your grade</h1>
+<form action ="http://mumstudents.org/params.php" method ="GET" novalidate autocomplete="on">
+	<select name="assignment" id="assignment">
+		<option value="assignment1">Assignment 1</option>
+		<option value="assignment2">Assignment 2</option>
+		<option value="assignment3">Assignment 3</option>
+		<option value="assignment4">Assignment 4</option>
+	</select>
+	<div>
+		<input type="radio" name ="entryid" value ="NovEntry" checked/>November Entry
+		<input type="radio" name ="entryid" value ="AugEntry"/>August Entry
+	</div>
+	<p>Name:</p><input name="name"></input>
+	<p>Student ID:</p><input name="studentid"></input>
+	<div>
+		<input type="checkbox" name="confirm" value="confirm"/>Confirm?
+	</div>
+	<input type="submit" value="Get Grade!">
+</form>
+
+</body>
+</html>
