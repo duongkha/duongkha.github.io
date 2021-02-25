@@ -71,15 +71,17 @@ h1{
 	margin:2%;
 }
 .box{
+	display: inline-block;
 	box-sizing : border-box;
 	border:2px solid gray;
 	border-radius :10px; 
 	font-size: 8pt;
 	font-weight: bold;
 	background-color: #E8DC9B;
-	/* margin:8px;
-	padding:8px; */
+	margin:8px;
+	padding:8px;
 	min-height: 50px;
+    min-width: 260px;
 }
 .reviewicon{
  	float: left; 
