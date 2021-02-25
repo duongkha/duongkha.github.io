@@ -68,6 +68,7 @@ h1{
 	column-width: 47%;
 	column-fill: auto;
 	height:700px;
+	margin:2%;
 }
 .box{
 	box-sizing : border-box;
