@@ -1,11 +1,13 @@
 @charset "utf-8";
+body{
+	font-family: Verdana, Tahoma;
+	font-size: 10pt;
+}
 .signup{
 	width:40%;
 	height:60%;
 	background-color: #81f8fe;
 	border:2px solid gray;
-	font-family: Verdana, Tahoma;
-	font-size: 10pt;
 	padding:10px;
 	border-radius: 10px;
 	box-shadow: 1px 1px;
@@ -23,6 +25,7 @@ label{
 	box-sizing:content-box;
 	background-color:white;
 	font-weight: normal;
+	border:2pt solid #81f8fe;
 }
 .name{
 	size:16;
