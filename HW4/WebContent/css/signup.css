@@ -1,6 +1,6 @@
 @charset "utf-8";
 .signup{
-	width:50%;
+	width:40%;
 	height:60%;
 	background-color: #81f8fe;
 	border:2px solid gray;
@@ -45,7 +45,7 @@ label{
 	display:inline-block;
 }
 .copyright{
-	width:50%;
+	width:40%;
 }
 .validator{
     left: 0;
