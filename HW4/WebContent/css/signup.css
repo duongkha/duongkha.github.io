@@ -1,10 +1,4 @@
 @charset "utf-8";
-boby{
-	width:50%;
-	display:block;
-	margin-left:auto;
-	margin-right:auto;
-}
 .signup{
 	width:50%;
 	height:60%;
@@ -13,14 +7,19 @@ boby{
 	font-family: Verdana, Tahoma;
 	font-size: 10pt;
 	padding:10px;
-	border-radius: 20px;
+	border-radius: 10px;
+	box-shadow: 1px 1px;
+}
+.shadow{
+	box-shadow: 1px 1px;
 }
 label{
 	font-weight: bold;
 }
 .caption{
+	margin-top:0;
 	box-sizing:content-box;
-	border:2px solid white;
+	background-color:white;
 }
 .name{
 	size:16;
