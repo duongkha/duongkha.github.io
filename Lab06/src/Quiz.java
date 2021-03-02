@@ -44,7 +44,7 @@ public class Quiz {
 	 }
 	 
 	 public boolean finished() {
-		 return curQuestion == Database.length() - 1;
+		 return curQuestion == Database.length();
 	 }
 	 public int getNumofQuestions() {
 		 return Database.length();
