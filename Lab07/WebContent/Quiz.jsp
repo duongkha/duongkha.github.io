@@ -17,10 +17,7 @@
 		<p>${sessionScope.Quiz.getQuestion()}</p>
 		<span>Your Answer:</span><input name='answer'/>
 		<input type='submit' value='Submit'/>
-		<p><input type="button" onclick="window.open(
-			  'http://argon.cs.mum.edu/JSPintroQuizLab/',
-			  '_blank'
-			);" value="Hint?" /></p>
+		<p><input type="button" onclick="alert('${sessionScope.Quiz.getHint()}')" value="Hint?" /></p>
 	</form>
 </body>
 </html>

@@ -8,6 +8,7 @@ public class Database {
 			 "1,2,4,8,16" //powers of 2
 	 };
 	 private static int[] answers= {9,8,36,13,32};
+	 private static String[] hints = {"Pi","Fibonanci","square","primes","powers of 2"};
 	 
 	 public static String getQuestion(int index) {
 		 if(index > -1 && index < Questions.length)
@@ -22,5 +23,10 @@ public class Database {
 	 
 	 public static int length() {
 		 return Questions.length;
+	 }
+	 public static String getHint(int index) {
+		 if(index > -1 && index < answers.length)
+			 return hints[index];
+		 return null;
 	 }
 }

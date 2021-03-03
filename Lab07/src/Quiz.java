@@ -78,7 +78,9 @@ public class Quiz {
 			grade = "NC";
 		return grade;
 	}
-
+	public String getHint() {
+		return Database.getHint(curQuestion);
+	}
 
 	public boolean checkAnswer(String answer) {
 		 int correctAnswer = Database.getAnswer(curQuestion);
