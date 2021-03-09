@@ -1,0 +1,11 @@
+body{
+	font-family:Tahoma,Verdana,Arial,Helvetica,sans-serif;
+	font-size:14pt;
+}
+legend{
+	font-size:24px;
+	font-weight:bold;
+}
+#text{
+	text-align:right;
+}
