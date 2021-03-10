@@ -1,0 +1,39 @@
+body{
+	background-color: #CCCCFF;
+	font-family:sans serif;
+	font-size: 14pt;
+	font-weight: bold;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+}
+h1{
+	font-size:32pt;
+	text-align:center;
+}
+#animationtext{
+	display:block;
+	box-sizing: border-box;
+	width: 90%;
+  	height: 400px;
+  	margin-left:auto;
+  	margin-right:auto;
+  	overflow:hidden;
+  	font-size:12pt;
+  	font-weight:bold;
+  	font:monospace;
+}
+.control{
+	display:inline-block;
+	border:solid 5px;
+}
+legend{
+	font-size: 14pt;
+	font-weight:bold;
+}
+.validator{
+	position: fixed;
+    right: 0;
+    bottom:0;
+    opacity: 0.5;
+}
