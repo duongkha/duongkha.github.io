@@ -146,9 +146,9 @@ function onStop(){
 	onStateChanged();
 }
 function play(frames){
-	var index = 0;
+	let index = 0;
 	function animate(){
-		var frame = frames[index];
+		let frame = frames[index];
 		var ele = document.getElementById("animationtext");
 		ele.value = frame;
 		index++;
