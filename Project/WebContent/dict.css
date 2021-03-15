@@ -1,0 +1,47 @@
+@charset "ISO-8859-1";
+
+body {
+  background-color: white;
+}
+
+h1 {
+  font-family: verdana;
+  color: hotpink;
+  text-align: center;
+}
+
+input[type=text] {
+  width: 30%;
+  padding: 10px 15px;
+  border: 2px solid lightblue;
+  border-radius: 4px;
+  font-size: 20px;
+}
+
+button {
+  padding: 10px 15px;  
+  background-color: lightblue;
+  color: white;
+  border-radius: 4px; 
+  font-size: 20px;
+}
+
+#definition {
+  font-family: verdana;
+  font-size: 15px;
+  margin: auto;
+  width: 50%;
+}
+
+#form {
+  font-family: verdana;
+  font-size: 23px;
+  color: navy;
+  text-align: center;
+}
+
+#validators {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
