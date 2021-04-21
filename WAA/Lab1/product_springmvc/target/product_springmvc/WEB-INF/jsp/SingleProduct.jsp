@@ -25,7 +25,7 @@
     </table>
 
 
-    <a href="welcome.jsp"> Back </a>
+    <a href="../"> Back </a>
 
 </div>
 </body>

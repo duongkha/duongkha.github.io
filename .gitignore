@@ -4,3 +4,10 @@ Lab00/.settings/org.eclipse.wst.common.component
 Lab00/.settings/org.eclipse.wst.common.project.facet.core.xml
 Lab00/.settings/org.eclipse.wst.jsdt.ui.superType.container
 Lab00/.settings/org.eclipse.wst.jsdt.ui.superType.name
+WAA/Lab1/product_springmvc/target/classes/edu/mum/controller/ProductController.class
+WAA/Lab1/product_springmvc/target/classes/edu/mum/repositoryimpl/ProductRepositoryImpl.class
+WAA/Lab1/product_springmvc/target/product_springmvc.war
+WAA/Lab1/product_springmvc/target/product_springmvc/META-INF/MANIFEST.MF
+WAA/Lab1/product_springmvc/target/product_springmvc/WEB-INF/classes/edu/mum/controller/ProductController.class
+WAA/Lab1/product_springmvc/target/product_springmvc/WEB-INF/classes/edu/mum/repositoryimpl/ProductRepositoryImpl.class
+WAA/Lab1/product_springmvc/target/product_springmvc/WEB-INF/jsp/SingleProduct.jsp

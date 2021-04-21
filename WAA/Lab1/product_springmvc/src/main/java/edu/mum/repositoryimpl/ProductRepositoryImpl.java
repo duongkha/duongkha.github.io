@@ -38,6 +38,9 @@ import edu.mum.repository.ProductRepository;
 	
 		@Override
 		public void save(Product product) {
+			if(product.getId() == 0){ //no product id assigned.
+				product.setId(listOfProducts.stream().count() + 1);
+			}
 			listOfProducts.add(product);
 			return ;
 		}
