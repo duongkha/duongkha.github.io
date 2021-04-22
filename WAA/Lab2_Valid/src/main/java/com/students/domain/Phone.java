@@ -3,23 +3,34 @@
  */
 package com.students.domain;
 
+import org.hibernate.validator.constraints.Length;
+
+import javax.validation.constraints.Digits;
+import javax.validation.constraints.Max;
+import javax.validation.constraints.Min;
+import javax.validation.constraints.NotNull;
 import java.io.Serializable;
-import javax.validation.constraints.Size;
-/**
- * @author B.Pirasanth
- *
- */
 public class Phone implements Serializable {
 
 	/**
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
-	@Size(min=3,max=3,message="{Size.area}")
+	@NotNull
+	@Min(value = 100, message = "This must be exact at 3 digits")
+	@Max(value = 999, message = "This must be exact at 3 digits")
+	//@Digits(integer = 3, fraction = 0, message = "This must be exact at {2} digits")
  	private Integer area;
-	@Size(min=3,max=3,message="{Size.prefix}")
+
+	@NotNull
+	@Min(value = 100, message = "This must be exact at 3 digits")
+	@Max(value = 999, message = "This must be exact at 3 digits")
  	private Integer prefix;
-	@Size(min=4,max=4,message="{Size.number}")
+
+	@NotNull
+	@Min(value = 1000,  message = "This must be exact at 4 digits")
+	@Max(value = 9999,  message = "This must be exact at 4 digits")
+	//@Digits(integer = 4, fraction = 0, message = "This must be exact at {2} digits")
  	private Integer number;
 	
 

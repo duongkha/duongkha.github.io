@@ -51,7 +51,7 @@
                 </p>
                 <p>
                     <label for="birthday">DOB: </label>
-                    <form:input path="birthday" id="birthday" type="date"/>
+                    <form:input path="birthday" id="birthday"/>
                     <form:errors path="birthday" cssStyle="color : red;" />
                 </p>
                 <p>
@@ -59,7 +59,9 @@
                     <form:input path="phone.area" id="area" />
                     <form:input path="phone.prefix" id="prefix" />
                     <form:input path="phone.number" id="number" />
-                    <form:errors path="phone" cssStyle="color : red;" />
+                    <form:errors path="phone.area" cssStyle="color : red;" />
+                    <form:errors path="phone.prefix" cssStyle="color : red;" />
+                    <form:errors path="phone.number" cssStyle="color : red;" />
                 </p>
                 <p id="buttons">
                     <input id="reset" type="reset" tabindex="4">

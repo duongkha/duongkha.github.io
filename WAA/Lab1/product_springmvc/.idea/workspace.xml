@@ -9,16 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15b53fe6-69b0-46fa-a1aa-ffa2b1959d38" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Lab2_Valid/src/main/java/com/students/domain/Gender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab2_Valid/src/main/java/com/students/repository/GenderRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab2_Valid/src/main/java/com/students/repositoryimpl/GenderRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab2_Valid/src/main/java/com/students/service/GenderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab2_Valid/src/main/java/com/students/serviceimpl/GenderServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab2_Valid/src/main/webapp/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/product_springmvc.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/product_springmvc.war" afterDir="false" />
-    </list>
+    <list default="true" id="15b53fe6-69b0-46fa-a1aa-ffa2b1959d38" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

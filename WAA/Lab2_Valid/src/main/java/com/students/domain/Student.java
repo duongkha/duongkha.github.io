@@ -4,21 +4,24 @@ import org.hibernate.validator.constraints.Email;
 import org.hibernate.validator.constraints.NotEmpty;
 import org.springframework.format.annotation.DateTimeFormat;
 
-import javax.validation.constraints.Size;
+import javax.validation.Valid;
+import javax.validation.constraints.*;
+import java.io.Serializable;
 import java.util.Date;
 
 
-public class Student {
+public class Student implements Serializable {
 	
 	private Integer id;
 
-	@NotEmpty(message = "{String.empty}")
+	@NotEmpty
 	@Size(min = 4, max = 50, message = "{Size.firstName.validation}")
  	private String firstName = null;
 
 	@NotEmpty(message = "{String.empty}")
  	private String lastName  = null;
 
+	@NotNull
 	@NotEmpty(message = "{String.empty}")
 	@Email
  	private String email = null;
@@ -26,10 +29,12 @@ public class Student {
 	@NotEmpty(message = "{String.empty}")
  	private String gender = null;
 
+	@NotNull
  	@DateTimeFormat(pattern = "mm/dd/yyyy")
-	@NotEmpty(message = "{String.empty}")
+	@Past
     private Date birthday;
- 
+
+	@Valid
 	private Phone phone;
 
   	public Integer getId() {
