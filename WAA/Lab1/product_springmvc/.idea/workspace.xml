@@ -10,46 +10,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15b53fe6-69b0-46fa-a1aa-ffa2b1959d38" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/product_springmvc_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/product_springmvc_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_1_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../__MACOSX/product_springmvc/._.DS_Store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../__MACOSX/product_springmvc/src/._.DS_Store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../__MACOSX/product_springmvc/src/main/._.DS_Store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../__MACOSX/product_springmvc/src/main/java/._.DS_Store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../__MACOSX/product_springmvc/src/main/java/edu/._.DS_Store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../__MACOSX/product_springmvc/src/main/java/edu/mum/._.DS_Store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../__MACOSX/product_springmvc/src/main/java/edu/mum/controller/._ProductController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../__MACOSX/product_springmvc/src/main/webapp/._.DS_Store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../__MACOSX/product_springmvc/src/main/webapp/WEB-INF/._.DS_Store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../__MACOSX/product_springmvc/src/main/webapp/WEB-INF/config/._springmvc-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/product_springmvc.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product_springmvc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/product_springmvc.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/mum/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/mum/controller/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/mum/repositoryimpl/ProductRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/mum/repositoryimpl/ProductRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/SingleProduct.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/SingleProduct.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/mum/controller/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/mum/controller/ProductController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/mum/repositoryimpl/ProductRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/edu/mum/repositoryimpl/ProductRepositoryImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab2_Valid/src/main/java/com/students/domain/Gender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab2_Valid/src/main/java/com/students/repository/GenderRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab2_Valid/src/main/java/com/students/repositoryimpl/GenderRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab2_Valid/src/main/java/com/students/service/GenderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab2_Valid/src/main/java/com/students/serviceimpl/GenderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab2_Valid/src/main/webapp/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/product_springmvc.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/product_springmvc.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/product_springmvc/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/product_springmvc/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/product_springmvc/WEB-INF/classes/edu/mum/controller/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/product_springmvc/WEB-INF/classes/edu/mum/controller/ProductController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/product_springmvc/WEB-INF/classes/edu/mum/repositoryimpl/ProductRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/product_springmvc/WEB-INF/classes/edu/mum/repositoryimpl/ProductRepositoryImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/product_springmvc/WEB-INF/jsp/SingleProduct.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/product_springmvc/WEB-INF/jsp/SingleProduct.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +45,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../MUM/WAA/Lesson03/EmployeeValidDemo" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RunManager">
@@ -183,11 +151,23 @@
       <workItem from="1618974279548" duration="1858000" />
       <workItem from="1618976357207" duration="456000" />
       <workItem from="1618977182693" duration="4782000" />
-      <workItem from="1619021333917" duration="591000" />
+      <workItem from="1619021333917" duration="1479000" />
+      <workItem from="1619034374759" duration="3527000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
