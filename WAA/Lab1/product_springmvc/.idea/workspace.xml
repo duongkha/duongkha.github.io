@@ -9,7 +9,70 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15b53fe6-69b0-46fa-a1aa-ffa2b1959d38" name="Default Changelist" comment="" />
+    <list default="true" id="15b53fe6-69b0-46fa-a1aa-ffa2b1959d38" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Lab3/src/main/java/miu/edu/lab3/controller/PostController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/src/main/java/miu/edu/lab3/domain/Post.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/src/main/java/miu/edu/lab3/repository/PostRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/src/main/java/miu/edu/lab3/repository/PostRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/src/main/java/miu/edu/lab3/service/PostService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Lab3/src/main/java/miu/edu/lab3/service/PostServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab2_Valid/target/Lab2_Valid-1.0-SNAPSHOT.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab2_Valid/target/Lab2_Valid-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab2_Valid/target/Lab2_Valid-1.0-SNAPSHOT/WEB-INF/classes/com/students/controller/HomeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab2_Valid/target/Lab2_Valid-1.0-SNAPSHOT/WEB-INF/classes/com/students/controller/StudentController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab2_Valid/target/Lab2_Valid-1.0-SNAPSHOT/WEB-INF/classes/com/students/domain/Phone.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab2_Valid/target/Lab2_Valid-1.0-SNAPSHOT/WEB-INF/classes/com/students/domain/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab2_Valid/target/Lab2_Valid-1.0-SNAPSHOT/WEB-INF/classes/errorMessages.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab2_Valid/target/Lab2_Valid-1.0-SNAPSHOT/WEB-INF/lib/aopalliance-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab2_Valid/target/Lab2_Valid-1.0-SNAPSHOT/WEB-INF/lib/commons-logging-1.1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab2_Valid/target/Lab2_Valid-1.0-SNAPSHOT/WEB-INF/lib/hibernate-validator-4.3.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab2_Valid/target/Lab2_Valid-1.0-SNAPSHOT/WEB-INF/lib/jboss-logging-3.1.0.CR2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab2_Valid/target/Lab2_Valid-1.0-SNAPSHOT/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab2_Valid/target/Lab2_Valid-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-4.0.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab2_Valid/target/Lab2_Valid-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-4.0.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab2_Valid/target/Lab2_Valid-1.0-SNAPSHOT/WEB-INF/lib/spring-context-4.0.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab2_Valid/target/Lab2_Valid-1.0-SNAPSHOT/WEB-INF/lib/spring-core-4.0.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab2_Valid/target/Lab2_Valid-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-4.0.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab2_Valid/target/Lab2_Valid-1.0-SNAPSHOT/WEB-INF/lib/spring-web-4.0.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab2_Valid/target/Lab2_Valid-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-4.0.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab2_Valid/target/Lab2_Valid-1.0-SNAPSHOT/WEB-INF/lib/validation-api-1.0.0.GA.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab2_Valid/target/Lab2_Valid-1.0-SNAPSHOT/WEB-INF/servlet-servlet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab2_Valid/target/Lab2_Valid-1.0-SNAPSHOT/WEB-INF/views/home.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab2_Valid/target/Lab2_Valid-1.0-SNAPSHOT/WEB-INF/views/registration.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab2_Valid/target/Lab2_Valid-1.0-SNAPSHOT/WEB-INF/views/success.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab2_Valid/target/Lab2_Valid-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab2_Valid/target/Lab6_Valid-1.0-SNAPSHOT.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab2_Valid/target/Lab6_Valid-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab2_Valid/target/Lab6_Valid-1.0-SNAPSHOT/WEB-INF/classes/com/students/controller/HomeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab2_Valid/target/Lab6_Valid-1.0-SNAPSHOT/WEB-INF/classes/com/students/controller/StudentController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab2_Valid/target/Lab6_Valid-1.0-SNAPSHOT/WEB-INF/classes/com/students/domain/Phone.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab2_Valid/target/Lab6_Valid-1.0-SNAPSHOT/WEB-INF/classes/com/students/domain/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab2_Valid/target/Lab6_Valid-1.0-SNAPSHOT/WEB-INF/classes/errorMessages.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab2_Valid/target/Lab6_Valid-1.0-SNAPSHOT/WEB-INF/lib/aopalliance-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab2_Valid/target/Lab6_Valid-1.0-SNAPSHOT/WEB-INF/lib/commons-logging-1.1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab2_Valid/target/Lab6_Valid-1.0-SNAPSHOT/WEB-INF/lib/hibernate-validator-4.3.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab2_Valid/target/Lab6_Valid-1.0-SNAPSHOT/WEB-INF/lib/jboss-logging-3.1.0.CR2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab2_Valid/target/Lab6_Valid-1.0-SNAPSHOT/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab2_Valid/target/Lab6_Valid-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-4.0.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab2_Valid/target/Lab6_Valid-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-4.0.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab2_Valid/target/Lab6_Valid-1.0-SNAPSHOT/WEB-INF/lib/spring-context-4.0.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab2_Valid/target/Lab6_Valid-1.0-SNAPSHOT/WEB-INF/lib/spring-core-4.0.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab2_Valid/target/Lab6_Valid-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-4.0.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab2_Valid/target/Lab6_Valid-1.0-SNAPSHOT/WEB-INF/lib/spring-web-4.0.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab2_Valid/target/Lab6_Valid-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-4.0.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab2_Valid/target/Lab6_Valid-1.0-SNAPSHOT/WEB-INF/lib/validation-api-1.0.0.GA.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab2_Valid/target/Lab6_Valid-1.0-SNAPSHOT/WEB-INF/spring/servlet-context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab2_Valid/target/Lab6_Valid-1.0-SNAPSHOT/WEB-INF/views/home.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab2_Valid/target/Lab6_Valid-1.0-SNAPSHOT/WEB-INF/views/registration.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab2_Valid/target/Lab6_Valid-1.0-SNAPSHOT/WEB-INF/views/success.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab2_Valid/target/Lab6_Valid-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab2_Valid/target/classes/com/students/controller/HomeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab2_Valid/target/classes/com/students/controller/StudentController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab2_Valid/target/classes/com/students/domain/Phone.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab2_Valid/target/classes/com/students/domain/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab2_Valid/target/classes/errorMessages.properties" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -144,6 +207,7 @@
       <workItem from="1618977182693" duration="4782000" />
       <workItem from="1619021333917" duration="1479000" />
       <workItem from="1619034374759" duration="3527000" />
+      <workItem from="1619126697425" duration="289000" />
     </task>
     <servers />
   </component>
@@ -160,5 +224,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
